@@ -1,0 +1,78 @@
+.d1 {
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 20px;
+    color: black;
+}
+.d2{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 20px;
+    color: black;
+    background-color:aqua;
+    opacity: 90%;
+}
+.d3{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 20px;
+    color: black;
+    background-color:aqua;
+    opacity: 90%;
+}
+.d5{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+    color: black;
+    background-color:aqua;
+    opacity: 90%;
+}
+.d6{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 20px;
+    color: black;
+    background-color:aqua;
+    opacity: 90%;
+}
+
+#tab1{
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+}
+#tab1,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+#f1{
+   border-radius: 5px; 
+}
+body{
+    background-image: url("starkkkk1.jpg");
+    background-size: 100px;
+    background-attachment: fixed;
+    backdrop-filter: opacity(10%);
+}
+#mark{
+    background-color: aqua;
+    border-radius: 25px;
+    opacity: 90%;
+}
+#b1,#dp1,#wp1{
+    font-size: 30px;
+}
+#a,#b{
+    background-color: whitesmoke;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="transaction.css">
+    <link rel="icon" href="6d2c5f2e352b7d21889e01d2ab6343f5.jpg">
+    <title>Stark's National Bank</title>
+</head>
+<body>
+    <center><a href="#b" id="a">Click here to navigate to bottom</a></center> 
+
+    <marquee behavior="scroll" direction="left" id="mark"><h2>$$$ ~ Welcome to Stark's National Bank ~ $$$</h2></marquee>
+
+    <div class="d1">
+        <p><h1>Available Balance</h1></p>
+        <p id="b1">0000.00</p>
+    </div> 
+    
+    <div class="d2">
+        <center><table id="tt">
+            <tr>
+                <td id="t1"><h3>Deposit Amount : </h3></td>
+                <td id="dp1">0000.00</td>
+            </tr> 
+            </table>
+        </center>    
+    </div>
+    
+    <div class="d6">
+        <center>
+        <table>
+            <tr>
+                <td id="t2"><h3>Withdrawal Amount : </h3></td>
+                <td id="wp1">0000.00</td>
+            </tr> 
+        </table> </center>
+    </div> 
+    
+    <div class="d3">
+        <center>
+        <table>
+            <tr>
+                <td class="td"><h4>Account Number : </h4></td>
+                <td class="td"><h4>XXXX-XXXX-1523</h4></td>
+            </tr>
+            <tr>
+                <td class="td"><h4>Account Holder Name : </h4></td>
+                <td class="td"><h4>Tony Stark</h4></td>
+            </tr>
+            <tr>
+                <td class="td"><h4>CRN : </h4></td>
+                <td class="td"><h4>XXXX2327</h4></td>
+            </tr>
+        </table>
+        </center>
+    </div> 
+    
+    <div class="d4">
+        <center>
+        <table>
+            <tr>
+                <td class="td">
+                   <select id="drop">
+                        <option value="Deposit">Deposit</option>
+                        <option value="Withdraw">Withdraw</option>
+                    </select>
+                </td>
+                <td class="td"><input type="text" id="desc" placeholder="Description"></td>
+                <td class="td"><input type="text" id="val1" placeholder="Amount"></td>
+                <td class="td"><input type="submit" value="OK" id="btn"></td>
+            </tr>
+        </table>
+        </center>
+    </div> 
+
+    <div class="d5"> <fieldset id="f1">
+        <legend><h2>Passbook</h2></legend>
+        <center>
+        <table id="tab1">
+            
+            <tr>
+                <th>Transaction Date</th> 
+                <th>Transaction Type(Cr/Dr)</th> 
+                <th>Transaction Amount</th> 
+                <th>Details</th> 
+                <th>Previous Balance</th> 
+                <th>Closing Balance</th> 
+            </tr>
+        </table> </fieldset>
+     </center>
+    </div>
+    
+    <center><a href="#a" id="b">Click here to navigate to top</a></center>
+
+</body>
+
+<script src="transaction.js"></script>
+
+</html>
